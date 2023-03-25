@@ -14,7 +14,7 @@ We typically use single text conditioning as an input. Naturally, we reuse the s
 
 Ok, but the code was not released yet, so I decided to implement it myself. I also added some of my own ideas to further explore the P+ space of the stable diffusion.
 
-# So what's my idea?
+# what's the difference?
 
 One possible suboptimality XTI brings is that the idea of having multiple uncorrelated tokens are implicitly assumed. Indeed, unless some second-order optimzier kicks in, all the extended tokens (in a sense) don't know each other at all.
 This is certainly weird : we have multiple tokens, that are supposed to be correlated (infact, they have to be idential in the original space), but the optimization doesn't account that.
@@ -47,7 +47,7 @@ Initial experiments :
 
 > Correlated ETI, 800 steps
 
-I literally did 1 experiments, so I don't know if this is a good idea or not. But I think it is worth further exploration. Use this repo if you want to try it out.
+I literally did 1 experiment, so I don't know if this is a good idea or not. But I think it is worth further exploration. Use this repo if you want to try it out.
 
 # Usage
 
