@@ -64,7 +64,7 @@ pip install git+https://github.com/cloneofsimo/lora.git
 Install this repo by
 
 ```bash
-pip install git+https://github.com/cloneofsimo/ppp.git
+pip install git+https://github.com/cloneofsimo/promptplusplus
 ```
 
 ### Training
